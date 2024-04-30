@@ -3,9 +3,9 @@ Blackjack is a card game that pits the player against the dealer. This Python pr
 
 # Instructions
 
-The objective is to deal both user and computer a starting hand of 2 random card values. The game will only show the 2 cards on hand of the user, and will only show 1 card from the computer's hand. 
+The objective is to deal both the user and computer with a starting hand of 2 random card values. The game will only show the 2 cards on the hand of the user, and will only show 1 card from the computer's hand. 
 Then, the game will detect if the computer or user has a blackjack on the first 2 cards provided (ACE + FACE CARDS). 
-If no blackjack on first cards, the computer will ask the user if they want to get another card or to pass.
+If there is no blackjack on the first cards, the computer will ask the user if they want to get another card or pass.
 ```
 .------.            _     _            _    _            _    
 |A_  _ |.          | |   | |          | |  (_)          | |   
@@ -43,7 +43,7 @@ Dealer's first card: 10
 Type 'y' to get another card, type 'n' to pass: 
 ```
 
-If the user decided to pass, the dealer will draw a card if their cards are below 17 or will just show the cards if it is greater than 17.
+If the user decides to pass, the dealer will draw a card if their cards are below 17 or will just show the cards if it is greater than 17.
 ```
 Dealer is drawing cards...
 
@@ -59,7 +59,7 @@ Dealer's final hand: [10, 10], final score: 20
 Dealer wins!
 ```
 
-If the user decided to get another card, the new card will then be added to the 2 cards the user already have. This can be done multiple times until the user is satisfied with the total number they have. 
+If the user decides to get another card, the new card will then be added to the 2 cards the user already has. This can be done multiple times until the user is satisfied with the total number they have. 
 However, keep in mind that if the user's total number exceeds 21, they will automatically lose the round.
 ```
 Type 'y' to get another card, type 'n' to pass: y
@@ -91,6 +91,6 @@ You win!
 > - The deck is unlimited in size. 
 > - There are no jokers. 
 > - The Jack/Queen/King all count as 10.
-> - The the Ace can count as 11 or 1.
-> - The cards in the list have equal probability of being drawn.
+> - The Ace can count as 11 or 1.
+> - The cards in the list have an equal probability of being drawn.
 > - Cards are not removed from the deck as they are drawn.
