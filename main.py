@@ -109,9 +109,9 @@ def start_game():
     clear()
     start_game()
 
-  return print("\nThanks for playing the Blackjack Game!")
+  return "\nThanks for playing the Blackjack Game!"
 
-start_game()
+print(start_game())
   
 
 ##################### Hints #####################
